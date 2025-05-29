@@ -384,10 +384,11 @@
             const techStacks = {
               'Sunset Paradise Hotel Web Site': ['HTML5', 'CSS3', 'JavaScript', 'PHP', 'MySQL', 'OpenStreetMap API','VS code','WAMP'],
               'Image-Generator': ['HTML5', 'CSS3', 'Stability AI API', 'JavaScript','VS code'],
-              'LuxeVista Resort mobile Application': ['Android Studio', 'Dart', 'Java', 'Firebase', 'Google Maps API'],
+              'LuxeVista Resort Mobile Application': ['Android Studio', 'Dart', 'Java', 'Firebase', 'Google Maps API'],
               'Weather Application': ['JavaScript', 'OpenWeather API', 'Geolocation API', 'Bootstrap','VS code'],
               'Flappy-Bird': ['HTML5 Canvas', 'JavaScript', 'CSS3', 'Game Physics','VS code'],
-              'Scientific-Calculator': ['HTML5', 'CSS3', 'JavaScript', 'Math.js','VS code']
+              'Scientific-Calculator': ['HTML5', 'CSS3', 'JavaScript', 'Math.js','VS code'],
+              'Cafe Management System': ['Angular', 'Node.js', 'Express.js', 'MySQL', 'PM2', 'Nginx', 'Puppeteer', 'EJS', 'EC2 (AWS)', 'VS Code']
             };
             return techStacks[projectTitle] || ['Technology not specified'];
           }
@@ -395,6 +396,15 @@
           // Complete features for all projects
           function getFeatures(projectTitle) {
             const features = {
+                'Cafe Management System': [
+                'Role-based access (admin/staff)',
+                'Secure user login with JWT tokens',
+                'Manage categories, products, and orders (CRUD)',
+                'Dynamic menu with search and filtering',
+                'Generate PDF invoices based on Customer order',
+                'User dashboard with data analytics',
+                'Responsive UI built with Angular'
+    ],
               'Sunset Paradise Hotel Web Site': [
                 'Responsive design for all devices',
                 'Online room booking system',
@@ -412,7 +422,7 @@
                 'Responsive gallery view',
                 
               ],
-              'LuxeVista Resort mobile Application': [
+              'LuxeVista Resort Mobile Application': [
                 'Android-platform mobile app ',
                 'Real-time room availability check',
                 'In-app booking and payments',
